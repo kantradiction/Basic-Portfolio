@@ -1,0 +1,127 @@
+html,body {
+	height: 100%;
+	font-size: 24px;
+	margin:0;
+}
+
+/* NAVIGATION CSS */
+
+#header-nav {
+	border-bottom: solid 3px #CCCCCC;
+}
+
+#header-nav a {
+	text-decoration: none;
+}
+
+#nav-bar {
+	height: 100px;
+	background-color: white;
+	margin: 0 150px;
+}
+
+#logo {
+	background-color: #4AAAA5;
+	height: 100px !important; /*setting to 100% doesn't work */
+	width: auto;
+	display: inline-block;
+	padding: 0 50px;
+	line-height: 100px;
+}
+
+#logo a {
+	color: white;
+}
+
+
+#navigation ul {
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation {
+	float: right;
+	clear: both;
+	line-height: 100px;
+	font-family: sans-serif;
+	margin-right: 313px;
+}
+
+#navigation a {
+	color: #9C9AA0;
+	border-right: solid 1px #CCCCCC;
+	padding-right: 8px;
+}
+
+/* BODY CONTENT CSS */
+
+#body-content {
+	background-color: #E7E7E7;
+	padding:50px 0;
+}
+
+#about-me {
+	width:40%;
+	margin-left: 150px;
+	background-color: white;
+	padding: 50px;
+	display: inline-block;
+}
+
+#about-me h1 {
+	margin-top: 0;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#about-me img {
+	width: 300px;
+	float: left;	
+	margin-right: 25px;
+}
+
+#about-me p {
+	float: none;
+}
+
+#connect-with-me {
+	float: right;
+	clear: both;
+	margin-right: 400px;
+	background-color: white;
+	padding: 50px;
+}
+
+#connect-with-me h2 {
+	border-bottom: solid 1px #CCCCCC;
+	margin-top: 0;
+}
+
+#connect-with-me ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+#connect-with-me li {
+	display: inline;
+}
+
+#connect-with-me img {
+	width: 70px;
+	height: 70px;
+}
+
+/* FOOTER CSS */
+#footer-content {
+	height: 100px;
+	text-align: center;
+	line-height: 96px;
+	background-color: #666666;
+	border-top: 10px solid #4AAAA5;
+	color: #b9b9b9;
+}
