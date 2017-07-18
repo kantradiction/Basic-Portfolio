@@ -2,7 +2,21 @@ html,body {
 	height: 100%;
 	font-size: 24px;
 	margin:0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+p, span {
+	color: #777777;
+}
+
 
 /* NAVIGATION CSS */
 
@@ -16,7 +30,7 @@ html,body {
 
 #nav-bar {
 	height: 100px;
-	background-color: white;
+	background-color: #ffffff;
 	margin: 0 150px;
 }
 
@@ -49,7 +63,7 @@ html,body {
 	clear: both;
 	line-height: 100px;
 	font-family: sans-serif;
-	margin-right: 313px;
+	margin-right: 185px;
 }
 
 #navigation a {
@@ -61,16 +75,20 @@ html,body {
 /* BODY CONTENT CSS */
 
 #body-content {
-	background-color: #E7E7E7;
+	/*background-color: #E7E7E7;*/
+	background-image: url("../images/triangular.png");
 	padding:50px 0;
 }
 
+/* INDEX.HTML CSS */ 
 #about-me {
-	width:40%;
+	width:650px;
+	/*width:35%;*/
 	margin-left: 150px;
-	background-color: white;
+	background-color: #ffffff;
 	padding: 50px;
 	display: inline-block;
+	border: 1px solid #dddddd;
 }
 
 #about-me h1 {
@@ -81,7 +99,7 @@ html,body {
 #about-me img {
 	width: 300px;
 	float: left;	
-	margin-right: 25px;
+	margin-right: 15px;
 }
 
 #about-me p {
@@ -91,9 +109,11 @@ html,body {
 #connect-with-me {
 	float: right;
 	clear: both;
-	margin-right: 400px;
-	background-color: white;
+	margin-right: 250px;
+	background-color: #ffffff;
 	padding: 50px;
+	width: 270px;
+	border: 1px solid #dddddd;
 }
 
 #connect-with-me h2 {
@@ -116,6 +136,94 @@ html,body {
 	height: 70px;
 }
 
+/* PORTFOLIO CSS */
+#portfolio {
+	width:650px;
+	/*width:35%;*/
+	margin-left: 150px;
+	background-color: #ffffff;
+	padding: 50px;
+	display: inline-block;
+	border: 1px solid #dddddd;
+}
+
+.portfolio-item {
+	display: inline-block;
+	width: 275px;
+	height: 275px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#portfolio h1 {
+	margin-top: 0;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+.portfolio-title {
+	height: 65px;
+	width: 100%;
+	background-color: #4AAAA5;
+	color: white!important;
+	position: absolute;
+	bottom: 25px;
+	text-align: center;
+}
+
+.portfolio-title a {
+	line-height: 65px;
+	text-decoration: none;
+	color: white;
+}
+
+.float-right {
+float: right;
+}
+
+/*CONTACT CSS*/
+
+#contact {
+
+	width:650px;
+	/*width:35%;*/
+	margin-left: 150px;
+	background-color: #ffffff;
+	padding: 50px;
+	display: inline-block;
+	border: 1px solid #dddddd;
+}
+
+#contact h1 {
+	margin-top: 0;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#contact input {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
+}
+
+#contact textarea {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width:100%;
+}
+
+#contact input[type=submit] {
+	width: auto;
+}
+
+#contact form {
+	width: 100%;
+}
+
+
 /* FOOTER CSS */
 #footer-content {
 	height: 100px;
@@ -123,5 +231,9 @@ html,body {
 	line-height: 96px;
 	background-color: #666666;
 	border-top: 10px solid #4AAAA5;
-	color: #b9b9b9;
+}
+
+
+#footer-content span {
+	color: #b7aaaa;
 }
